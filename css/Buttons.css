@@ -14,8 +14,8 @@ and open the template in the editor.
 	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
-	font: 16px/100% Arial, Helvetica, sans-serif;
-	padding: .5em 2em .55em;
+	font: 18px/100% Courier;
+	padding: .5em 2em .60em;
 	text-shadow: 0 1px 1px rgba(0,0,0,.3);
 	-webkit-border-radius: .5em; 
 	-moz-border-radius: .5em;
@@ -23,7 +23,8 @@ and open the template in the editor.
 	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
 	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
 	box-shadow: 0 1px 2px rgba(0,0,0,.2);
-        text-align:center;
+        margin-right: 10px;
+        margin-top: 20px;
     }
     .button:hover {
 	text-decoration: none;
@@ -36,24 +37,24 @@ and open the template in the editor.
 
 
     .orange {
-	color: #fef4e9;
+	color: darkmagenta;
 	border: solid 1px #da7c0c;
-	background: #f78d1d;
-	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
-	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
-	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+	background-image: linear-gradient(to bottom right,#f68d1d,#ffff66 );
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f442d7));
+	background: -moz-linear-gradient(top,  #faa51a,  #f442d7);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f442d7');
     }
     .orange:hover {
-    	background: #f47c20;
+    	background-image: linear-gradient(to bottom right,#ffcc00,#fffae6 );
     	background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
     	background: -moz-linear-gradient(top,  #f88e11,  #f06015);
     	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
     }
     .orange:active {
-            color: #fcd3a5;
-         background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
-         background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
-         filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+         color: magenta;
+         background: -webkit-gradient(linear, left top, left bottom, from(#f442d7), to(#faa51a));
+         background: -moz-linear-gradient(top,  #f442d7,  #faa51a);
+         filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f442d7', endColorstr='#faa51a');
     }
 
     .bigrounded {
