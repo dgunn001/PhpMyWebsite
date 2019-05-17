@@ -17,6 +17,7 @@
                 <a href="http://google.com" class="button orange bigrounded"><b>Google</b></a>
                 <a href="https://www.linkedin.com/in/darrien-gunn-8a36a4185/" class="button orange bigrounded"><b>linkedin</b></a>
                 <a href="https://github.com/dgunn001" class="button orange bigrounded"><b>Github</b></a>
+                <a href="img/First Resume.pdf" class="button orange bigrounded"><b>Resume</b></a>
                 </div>
             </form>
             <a id="AbtTitle" > <b> About Me</b></a>
